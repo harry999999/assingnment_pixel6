@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Xtra Blog</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+<!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+<body>
+	<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>            
+                <h1 class="text-center">Animal Blog</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        Blog Home
+                    </a></li>
+                    <li class="tm-nav-item"><a href="post.html" class="tm-nav-link">
+                        <i class="fas fa-pen"></i>
+                        Single Post
+                    </a></li>
+                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        About Animal Blog
+                    </a></li>
+                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link">
+                        <i class="far fa-comments"></i>
+                        Contact Us
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-65">
+                <a rel="nofollow" href="https://fb.com/templatemo" class="tm-social-link">
+                    <i class="fab fa-facebook tm-social-icon"></i>
+                </a>
+                <a href="https://twitter.com" class="tm-social-link">
+                    <i class="fab fa-twitter tm-social-icon"></i>
+                </a>
+                <a href="https://instagram.com" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
+                </a>
+                <a href="https://linkedin.com" class="tm-social-link">
+                    <i class="fab fa-linkedin tm-social-icon"></i>
+                </a>
+            </div>
+            <p class="tm-mb-80 pr-5 text-white">
+                Animal Blog where you get all the infor about your favorite animal.
+            </p>
+            
+            <p class="tm-mb-80 pr-5 text-white">
+                 <a href='https://bachelorthesiswritingservice.com/'>bachelorthesiswritingservice.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=fb178c59ac73f2b46cb6f076075fbfb9cb1ecf66'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/878492/t/0"></script>
+            </p>
+         
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button> 
+                                                       
+                    </form>
+                </div> 
+                      <div class="col-12">
+                    <style>
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+<body>
+
+<h2>Filter DIV Elements</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('cars')"> Life expectancy 1</button>
+  <button class="btn" onclick="filterSelection('animals')"> LC 2 year</button>
+  <button class="btn" onclick="filterSelection('fruits')"> LC 3 year</button>
+  <button class="btn" onclick="filterSelection('colors')"> 4 year</button>
+</div>
+
+<div class="container">
+  <div class="filterDiv cars">Animal 1</div>
+  <div class="filterDiv colors fruits">An 2</div>
+  <div class="filterDiv cars">An. 3</div>
+  <div class="filterDiv colors">An 4</div>
+  <div class="filterDiv cars animals">An 4</div>
+  <div class="filterDiv colors">An 5</div>
+  <div class="filterDiv animals">An 6</div>
+  <div class="filterDiv animals">An 6 </div>
+  <div class="filterDiv fruits">AN 7</div>
+  <div class="filterDiv fruits animals">AN 7</div>
+  <div class="filterDiv fruits">AN 8</div>
+  <div class="filterDiv fruits">An 9</div>
+  <div class="filterDiv animals">AN 10</div>
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+                </div>            
+            </div>            
+            <div class="row tm-row">
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/img-01.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Animal 1</h2>
+                    </a>                    
+                   
+                     <p class="tm-pt-30">
+                        The harbor (or harbour) seal (Phoca vitulina), also known as the common seal, is a true seal found along temperate and Arctic marine coastlines of the Northern Hemisphere.
+
+                    </p>
+                   
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p class="tm-pt-30">
+                       Life Expectancy 3 year
+                    </p>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class=" tm-post-link-inner">
+                            <img src="img/img-02.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Animal 2</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">Animal 2</a> Life 
+                    </p>
+                  
+                    <hr>
+                     <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">life expectancy</a>5 
+                    </p>
+                  
+                </article>
+             <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class=" tm-post-link-inner">
+                            <img src="img/img-03.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Animal 3</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">Animal 3</a> Life 
+                    </p>
+                  
+                    <hr>
+                     <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">life expectancy</a>5 
+                    </p>
+                  
+                </article>
+            
+               <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class=" tm-post-link-inner">
+                            <img src="img/img-04.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+                        <span class="position-absolute tm-new-badge">New</span>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Animal 4</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">Animal 4</a> Life 
+                    </p>
+                  
+                    <hr>
+                     <p class="tm-pt-30">
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">life expectancy</a>5 
+                    </p>
+                  
+                </article>
+            
+           
+           
+            </div>
+            <div class="row tm-row tm-mt-100 tm-mb-75">
+                <div class="tm-prev-next-wrapper">
+                    <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next disabled tm-mr-20">Prev</a>
+                    <a href="#" class="mb-2 tm-btn tm-btn-primary tm-prev-next">Next</a>
+                </div>
+                <div class="tm-paging-wrapper">
+                    <span class="d-inline-block mr-3">Page</span>
+                    <nav class="tm-paging-nav d-inline-block">
+                        <ul>
+                            <li class="tm-paging-item active">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">1</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">2</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">3</a>
+                            </li>
+                            <li class="tm-paging-item">
+                                <a href="#" class="mb-2 tm-btn tm-paging-link">4</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>                
+            </div>            
+            <footer class="row tm-row">
+                <hr class="col-12">
+                <div class="col-md-6 col-12 tm-color-gray">
+                    Design: <a rel="nofollow" target="_parent" href="https://templatemo.com" class="tm-external-link">TemplateMo</a>
+                </div>
+                <div class="col-md-6 col-12 tm-color-gray tm-copyright">
+                    Copyright 2020 Xtra Blog Company Co. Ltd.
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
